@@ -1,0 +1,70 @@
+body {
+    background-color: linen;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+p {
+    color: dimgray;
+    line-height: 1.5;
+}
+
+
+.highlight {
+    background-color: yellow;
+}
+
+
+#intro {
+    font-size: 20px;
+    color: maroon;
+}
+
+
+img {
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+a {
+    color: mediumseagreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: tomato;
+}
+
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: violet;
+}
